@@ -1,11 +1,14 @@
 {
   "name": "banime-api-cloudflare",
+  "version": "1.0.0",
+  "description": "Node.js API for obtaining anime information from hianime.to using Cloudflare",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy --minify",
     "cf-typegen": "wrangler types --env-interface CloudflareBindings"
   },
   "dependencies": {
+    "aniwatch": "^2.4.1",
     "hono": "^4.6.13"
   },
   "devDependencies": {
